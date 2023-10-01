@@ -1,37 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
-
-    <!-- Set the charset we're using to UTF-8 -->
+    <title>AssignmentOne</title>
     <meta charset="UTF-8" />
-
-    <!-- Set the screens default zoom / scale to 1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Specifies the document mode for Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
-    doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
     <style>
-      /*
-        These styles set the font, font-size, and add a
-        little bit of space between lines
-      */
       body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2rem;
         line-height: 1.6;
       }
-      /*
-        These styles make sure that any super wide images
-        don't overflow the page width
-      */
       img {
         width: 100%;
         display: block;
@@ -40,21 +19,138 @@
     </style>
   </head>
   <body>
-    <!--
 
-      LIST ANY CITATIONS HERE
+    <!--HEADER-->
+    <header>
+      <h2>Made Up Brand INC</h2>
+      <p>Where dreams are made, or some kind of product, we aren't sure yet.</p>
+      <img src ="./generic-logo-company.png" alt="Company logo"/>
+        <nav>
+          <h3>Site Navigation</h3>
+          <ul>
+            <li><a href="#">Our Founders (N/A)</a></li>
+            <li><a href="#">Our Products (again, not too sure on this one)</a></li>
+            <li><a href="#">Our Fall Collection (I guess we're a clothing brand??)</a></li>
+            <li><a href="#">Our Winter Collection (Little early for winter but alright)</a></li>
+            <li><a href="#">Our Ethical Practices (TBD)</a></li>
+          </ul>
+        </nav>
+    </header>
 
-        * A
-        * B
+    <!--HERO-->
+    <main>
+      <section>
+        <h1>The Main Part of the Website</h1>
+        <p>If this were an actual brand, this is likely the section where I would use a lot of buzzwords like "hope" and "beauty" or something to convince you to buy a $45 t-shirt. Luckily this isn't, so instead I'm just going to show you this picture of a cat that I like and move onto the next section.</p>
+        <img src ="./cat.jpg" alt="Cat"/>
+        <p>Isn't he cute? Unless you're viewing this site with a screenreader, in which case all you got was the word "cat" in a robotic voice. Just trust me, he's pretty cute.</p>
+      </section>
 
-    -->
+      <!--SECTION ONE FAQ-->
+        <section>
+          <h2>FAQs</h2>
+            <section>
+             <h3>What do you actually sell?</h3>
+              <p>We don't know, please stop asking us, it's very stressful.</p>
+            </section>
+            <section>
+             <h3>Why can't I close this tab and why did it randomly open up on my browser when I opened a new tab?</h3>
+             <p>Only one question at a time please, next.</p>
+            </section>
+           <section>
+             <h3>Was the picture of the cat actually cute? I'm using a screenreader and I don't quite trust you.</h3>
+              <p>Wow. That's incredibly hurtful. What ever happened to having a little faith in people? I don't even want to answer questions anymore, you've entirely ruined my mood. I'm moving onto the next section.</p>
+          </section>
+         </section>
 
-    <!--
+      <!--SECTION TWO TESTIMONIALS-->
+        <section>
+          <h2>Customer Testimonials</h2>
+          <p>After that incredibly hurtful question, I think we could all do with some nice, positive, customer testimonials, such as:</p>
+          <ul>
+            <li>"I just want you guys to leave me alone, I don't even understand what you sell and I doubt you do either. Stop showing up at my house"</li>
+            <li>"dsgahoifydigsauhdpsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa sorry, my cat walked across my keyboard. Wait, who are you?"</li>
+            <li>"I bought a terrible shirt for $45 and feel just ok about it, I guess."</li>
+          </ul>
+        </section>
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+      <!--SECTION THREE TABLE-->
+        <section>
+          <h2>Table</h2>
+          <p>Alright I'm all out of ideas and am admitting defeat, I no longer know what to add to this website that would even vaguely make sense but I still want full marks so I'm gonna rank all my potential ideas for this section in a table.</p>
+            <table>
+              <caption>Iona's Table Of Ideas</caption>
+              <thead>
+                <tr>
+                  <th>Ranking</th>
+                  <th>Idea</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>This table</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>A table ranking cat images</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Nothing. Just giving up.</td>
+                </tr>
+              </tbody>
+            </table>
+        </section>
 
-    -->
+      <!--SECTION FOUR FORM-->
+       <section>
+        <h2>Support Form</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input id="name" type="text" placeholder="First Last" autocomplete="name"/>
+          <br>
+          <label for="email">Email:</label>
+          <input id="email" type="email" placeholder="first.last@email.com" autocomplete="email"/>
+          <br>
+          <label for="phone">Phone:</label>
+          <input id="phone" type="tel" placeholder="(123)123-1234" autocomplete="tel"/>
+          <br>
+          <label for="reason">Reason for contact:</label>
+          <select name="reason" id="reason">
+            <option value="sel">Select</option>
+            <option value="sel">Mysterious packages keep arriving at my door</option>
+            <option value="sel">General fear for my safety</option>
+            <option value="sel">Just wanna chat! :D</option>
+          </select>
+          <br>
+          <label for="message">Message:</label>
+          <textarea rows="10" id="message"></textarea>
+          <br>
+          <button type="submit">Submit</button>
+          <input type="submit" value="Submit"/> <!--I just did this because I wanted to have both kinds of buttons since I couldn't remember which one you liked more-->
+        </form>
+       </section>
 
-    <h1>Assignment 01 - To Be Completed</h1>
+       <!--FOOTER-->
+       <footer>
+        <h2>Made Up Brand INC</h2>
+        <p>Thanks for stopping by.</p>
+        <img src ="./generic-logo-company.png" alt="Company logo"/>
+          <nav>
+            <h3>Site Navigation</h3>
+            <ul>
+            <li><a href="#">Our Founders (N/A)</a></li>
+            <li><a href="#">Our Products (again, not too sure on this one)</a></li>
+            <li><a href="#">Our Fall Collection (I guess we're a clothing brand??)</a></li>
+            <li><a href="#">Our Winter Collection (Little early for winter but alright)</a></li>
+            <li><a href="#">Our Ethical Practices (TBD)</a></li>
+            </ul>
+          </nav>
+          <h4>Contact us</h4>
+          <p>Email madeupcompany@email.com or call us at +1(123)123-1234</p>
+          <p>2023©</p>
+        </footer>
+      </main>
   </body>
 </html>
